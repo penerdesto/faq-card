@@ -2,7 +2,7 @@
 @import url(left-section.css);
 @import url(rigth-section.css);
 @import url(footer.css);
-@import url(media.css);
+
 
 *{
     margin: 0;
@@ -39,3 +39,73 @@ main{
     display: flex;
 }
 
+
+
+@media screen and (max-width:1051px){
+    .main-container{
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h1{
+        text-align: center;
+        width: 300px;
+        position: absolute;
+        top: -18%;
+        left: 5%;
+    }
+
+    .rigth-section-wrap{
+        position: relative;
+    }
+    
+    hr{
+        width: 330px;
+    }
+
+    .img-wrap-main{
+        position: absolute;
+        bottom: 53%;
+        left: 16%;
+        /* transform: translateX(50%); */
+        scale:.5;
+        transition: .5s;
+    }
+
+    .img-wrap-z-index{
+        overflow: visible;
+    }
+
+    .img-woman{
+        background-position: 50%;
+        width: 472px;
+    }
+
+    .img-shadow{
+        bottom: -25%;
+        right: -50%;
+        scale: .55;
+    }
+
+
+    .rigth-side{
+        width: 100%;
+        margin-left: 40px;
+        scale: 0.9;
+    }
+
+    .arrow-icon{
+        right: 0;
+    }
+
+    .active{
+        bottom: 50%;
+    }
+
+    .active-click{
+        bottom: 50%;
+    }
+}
