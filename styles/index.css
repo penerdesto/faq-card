@@ -51,11 +51,8 @@ main{
     }
     
     h1{
-        text-align: center;
-        width: 300px;
-        position: absolute;
-        top: -18%;
-        left: 5%;
+        margin-left: 125px;
+        margin-bottom: 30px;
     }
 
     .rigth-section-wrap{
