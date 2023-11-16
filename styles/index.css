@@ -130,7 +130,7 @@ p{
     }
 
     .arrow-icon{
-        background-image: url(/images/icon-arrow-down.svg);
+        background-image: url(../images/icon-arrow-down.svg);
         width:10px;
         height: 7px;
         position: absolute;
@@ -272,7 +272,7 @@ p{
     }
 
     .woman-img{
-        background-image: url(/images/illustration-woman-online-mobile.svg);
+        background-image: url(../images/illustration-woman-online-mobile.svg);
         width: 198px;
         height: 150px;
         z-index: 1;
@@ -282,7 +282,7 @@ p{
     }
 
     .shadow-img{
-        background-image: url(/images/bg-pattern-mobile.svg);
+        background-image: url(../images/bg-pattern-mobile.svg);
         width: 240px;
         height: 104px;
         z-index: 0;
@@ -296,7 +296,7 @@ p{
     }
 
     .arrow-icon{
-        background-image: url(/images/icon-arrow-down.svg);
+        background-image: url(../images/icon-arrow-down.svg);
         width:10px;
         height: 7px;
         position:absolute;
