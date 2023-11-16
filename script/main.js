@@ -1,7 +1,5 @@
 const lista = document.querySelectorAll('li');
-const imgFrame = document.querySelector('.img-wrap-main');
-
-
+const imgFrame = document.querySelector('.img-main-wrap');
 
 lista.forEach((element) => {
     element.addEventListener('mouseover', () => {
